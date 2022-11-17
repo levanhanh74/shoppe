@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resigter</title>
+    
+    <link rel="stylesheet" href="/scourse/CSS/main.css">
+    <link rel="stylesheet" href="/scourse/CSS/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scourse/CSS/register.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <!-- class grid la cho ti le khung hinh  cua minh no ok hon khong can phai padding hay margin gi ca -->
+            <div class="grid">
+                <!-- Nav bên trái -->
+                <nav class="header-navbar">
+                    <ul class="header-navbar-list">
+                        <li class="header-navbar-item header-navbar-item-has-qr header-navbar-item-separate">Vào cửa
+                            hàng
+                            <!-- header qr code-->
+                            <div class="header-qr">
+                                <img src="/scourse/img/QR code.png" alt="" class="header-qr-img">
+                                <div class="header-qr-app">
+                                    <a href="" class="header-qr-link"> <img src="/scourse/img/Google-play.png"
+                                            alt="Google-play" class="header-qr-download_img"></a>
+                                    <a href="" class="header-qr-link"> <img src="/scourse/img/Apps-stores.png"
+                                            alt="Apps-stores" class="header-qr-download_img"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header-navbar-item">
+                            <span class="header-navbar-title-no-pointer">Kết Nối</span>
+                            <a href="" class="header-navbar-icon-link">
+                                <i class="header-navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header-navbar-icon-link">
+                                <i class="header-navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Nav bên phải -->
+                    <ul class="header-navbar-list">
+                        <li class="header-navbar-item header-navbar-item-has-notify">
+                            <a href="" class="header-navbar-item-link ">
+                                <a href="" class="header-navbar-icon-link">
+                                    <i class="header-navbar-icon fa-solid fa-bell"></i>
+                                </a>Thông báo
+                            </a>
+                            <div class="header-notify">
+                                <header class="header-notify-header">
+                                    <h3>Thong bao moi nhat</h3>
+                                </header>
+                                <ul class="header-notify-list">
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 1.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang Mo ta
+                                                    Ohui</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 2.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang cac ban trai
+                                                    nen mu cho cac ban gai</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hangMy pham
+                                                    Ohui</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 3.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang dep khong ti
+                                                    vet</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang nen cung
+                                                    rat dep da cho cac chi em phu nu</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 4.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang hang gia dat
+                                                    chat luong cao</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac chi em
+                                                    phu nu luon tin dung</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 5.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang dung khong dep
+                                                    khong lay tien</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac ban
+                                                    nen dung thu va kiem nhiem nhe</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 6.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang cac ban can
+                                                    biet ve san pham nay</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang dung va
+                                                    hoi tai sao no chat luong the</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header-notify-item header-notify-item-read">
+                                        <a href="" class="header-notify-link">
+                                            <img src="/scourse/img/my pham 7.jfif" alt="" class="header-notify-img">
+                                            <div class="header-notify-info">
+                                                <span class="header-notify-name">My pham Ohui chinh hang ban rat ban
+                                                    khoan khi dat niem tin vao de mua no</span>
+                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac ban nu
+                                                    chac chan rat tin dung san pham nay cho ma xem</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header-notify-footer">
+                                    <div class="header-notify-item-footer-btn">Xem tat ca</div>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header-navbar-item">
+                            <a href="" class="header-navbar-item-link "><a href="" class="header-navbar-icon-link">
+                                    <i class="header-navbar-icon fa-solid fa-question"></i>
+                                </a>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header-navbar-item header-navbar-item-bold"><a href="/index.html" class="header-navbar-item-link header-navbar-item-separate">Home page</a></li>
+                        <li class="header-navbar-item header-navbar-item-bold"><a href="#" class="header-navbar-item-link">Đăng Nhập</a></li>
+                        <li class="header-navbar-item header-navbar-user">
+                            <!-- <img src="https://scontent.fdad8-1.fna.fbcdn.net/v/t39.30808-6/309995044_636137751417886_4280318165676617827_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oLCCulSR-NIAX8SXsze&_nc_ht=scontent.fdad8-1.fna&oh=00_AfA3jYNlopvZDFNT1f1A-QLACnV2drK7yvBiZ9jZ1TRN1g&oe=637A4F92" alt="" class="header-navbar-user-img">
+                            <span class="header-navbar-user-name">Hanhcoder</span>
+
+                            <ul class="header-navbar-user-menu">
+                                <li class="header-navbar-user-item">
+                                    <a href="">My Account</a>
+                                </li>
+                                <li class="header-navbar-user-item">
+                                    <a href="">My addreess</a>
+                                </li>
+                                <li class="header-navbar-user-item">
+                                    <a href="">My buying unit </a>
+                                </li>
+                                <li class="header-navbar-user-item">
+                                    <a href="">Log out </a>
+                                </li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- begin header width search -->
+                <div class="header-width-search">
+                    <div class="header-logo">
+                        <img src="/scourse/img/logoshopee.jfif" alt="" class="header-logo-img">
+                    </div>
+                    <div class="header-search">
+                        <div class="header-search-input-wrap">
+                            <input type="text" class="header-search-input" placeholder="Enter search product" list="browsers">
+                            <!-- search history -->
+                            <div class="header-search-history">
+                                <h3 class="header-search-history-heading">History Look for product</h3>
+                                <ul class="header-search-history-list">
+                                    <li class="header-search-history-item">
+                                        <a href="">Kem duong da chong nang</a>
+                                    </li>
+                                    <li class="header-search-history-item">
+                                        <a href="">Son moi danh cho nu</a>
+                                    </li>
+                                    <li class="header-search-history-item">
+                                        <a href="">Day danh cho nam</a>
+                                    </li>
+                                </ul>
+                                <!-- <datalist class="header-search-history-list"  id="browsers">
+                                    <option class="header-search-history-item" value="Internet Explorer">
+                                    <option class="header-search-history-item" value="Firefox">
+                                    <option class="header-search-history-item" value="Google Chrome">
+                                    <option class="header-search-history-item" value="Opera">
+                                    <option class="header-search-history-item" value="Safari">
+                                  </datalist>   cai nay thi don gian hon khong can css nhieu -->
+                            </div>
+                        </div>
+                        <div class="header-search-select">
+                            <span class="header-search-select-lable"> Trong shop </span>
+                            <i class="header-search-select-icon fa-solid fa-angle-down"></i>
+
+                            <ul class="header-search-option">
+                                <li class="header-search-option-item header-search-option-item-active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header-search-option-item header-search-option-item-active">
+                                    <span>Ngoai shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <button class="header-search-btn">
+                            <i class="header-search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- begin cart layout -->
+                    <div class="header-cart">
+                      <div class="header-cart-wrap header-cart-wrap-rigister">
+                        <i class="header-cart-icon fa-solid fa-cart-shopping"></i>
+                        <!-- No cart:  header-cart-list-no-cart  header-cart-no-cart-->
+                        <span class="header-cart-notice">3</span>
+                        <div class="header-cart-list ">
+                            <img src="/scourse/img/no-cart.png" alt="" class="header-cart-no-cart-img">
+                            <span class="header-cart-list-no-cart-msg">
+                                Cart haven't product yet
+                            </span>
+                            <h4 class="header-cart-heading">Product was add</h4>
+                            <ul class="header-cart-list-item">
+                                <!-- cart item  -->
+                                <li class="header-cart-item">
+                                    <img src="/scourse/img/my pham 1.jfif" alt="" class="header-cart-img">
+                                    <div class="header-cart-item-ifo">
+                                        <div class="header-cart-item-head">
+                                            <h5 class="header-cart-item-name">San phẩm kem danh cho nu</h5>
+                                            <div class="head-cart-item-price-wrap">
+                                                <span class="header-cart-item-price">20.000VND</span>
+                                                <span class="header-cart-item-multify">x</span>
+                                                <span class="header-cart-item-qnt">1</span>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item-body">
+                                            <span class="header-cart-item-description">Product for woman</span>
+                                            <span class="header-cart-item-remove">Delete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header-cart-item">
+                                    <img src="/scourse/img/my pham 2.jfif" alt="" class="header-cart-img">
+                                    <div class="header-cart-item-ifo">
+                                        <div class="header-cart-item-head">
+                                            <h5 class="header-cart-item-name">San phẩm son moi</h5>
+                                            <div class="head-cart-item-price-wrap">
+                                                <span class="header-cart-item-price">40.000VND</span>
+                                                <span class="header-cart-item-multify">x</span>
+                                                <span class="header-cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item-body">
+                                            <span class="header-cart-item-description">Product for woman</span>
+                                            <span class="header-cart-item-remove">Delete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header-cart-item">
+                                    <img src="/scourse/img/my pham 3.jfif" alt="" class="header-cart-img">
+                                    <div class="header-cart-item-ifo">
+                                        <div class="header-cart-item-head">
+                                            <h5 class="header-cart-item-name">San phẩm kem chong nang nu</h5>
+                                            <div class="head-cart-item-price-wrap">
+                                                <span class="header-cart-item-price">25.000VND</span>
+                                                <span class="header-cart-item-multify">x</span>
+                                                <span class="header-cart-item-qnt">1</span>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item-body">
+                                            <span class="header-cart-item-description">Product for woman</span>
+                                            <span class="header-cart-item-remove">Delete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header-cart-item">
+                                    <img src="/scourse/img/my pham 4.jfif" alt="" class="header-cart-img">
+                                    <div class="header-cart-item-ifo">
+                                        <div class="header-cart-item-head">
+                                            <h5 class="header-cart-item-name">San phẩm danh mi mat</h5>
+                                            <div class="head-cart-item-price-wrap">
+                                                <span class="header-cart-item-price">10.000VND</span>
+                                                <span class="header-cart-item-multify">x</span>
+                                                <span class="header-cart-item-qnt">1</span>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item-body">
+                                            <span class="header-cart-item-description">Product for woman</span>
+                                            <span class="header-cart-item-remove">Delete</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <a href="#" class="header-cart-view-cart btn btn-primary">Look cart</a>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- the end header width search  -->
+            </div>
+
+        </header>
+        <!-- the header -->
+
+        
+        <div class="containner">
+            <section class="vh-100 containner_form">
+                <div class="container-fluid h-custom">
+                  <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                        class="img-fluid" alt="Sample image">
+                    </div>
+                    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                      <form>
+                        <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                          <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                          <button type="button" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                          </button>
+              
+                          <button type="button" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                          </button>
+              
+                          <button type="button" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-linkedin-in"></i>
+                          </button>
+                        </div>
+              
+                        <div class="divider d-flex align-items-center my-4">
+                          <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                        </div>
+              
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                          <input type="email" id="form3Example3" class="form-control form-control-lg"
+                            placeholder="Enter a valid email address" />
+                          <label class="form-label" for="form3Example3">Email address</label>
+                        </div>
+              
+                        <!-- Password input -->
+                        <div class="form-outline mb-3">
+                          <input type="password" id="form3Example4" class="form-control form-control-lg"
+                            placeholder="Enter password" />
+                          <label class="form-label" for="form3Example4">Password</label>
+                        </div>
+              
+                        <div class="d-flex justify-content-between align-items-center">
+                          <!-- Checkbox -->
+                          <div class="form-check mb-0">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                            <label class="form-check-label" for="form2Example3">
+                              Remember me
+                            </label>
+                          </div>
+                          <a href="#!" class="text-body">Forgot password?</a>
+                        </div>
+              
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                          <button type="button" class="btn btn-primary btn-lg"
+                            style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                          <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                              class="link-danger">Register</a></p>
+                        </div>
+              
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              
+              </section>
+        </div>
+        <!-- the end containner -->
+
+        <footer class="footer">
+            <div class="footer_boostraps d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 ">
+            <!-- Copyright -->
+            <div class="text-white mb-3 mb-md-0">
+              Copyright © 2020. All rights reserved.
+            </div>
+            <!-- Copyright -->
+        
+            <!-- Right -->
+            <div class="bg-origi">
+              <a href="#!" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#!" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#!" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#!" class="text-white">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </div>
+        </footer>
+
+</body>
+</html>

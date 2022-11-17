@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overlay</title>
+</head>
+<body>
+    <!-- <div class="main">
+        <img src="./scourse/img/my pham 1.jfif" alt="">
+        <h1>NEW <br>YORK</h1>
+    </div> -->
+    <div class="auth-form-form">
+        <div class="auth-from-group1">
+            <input type="text" class="auth-form-input1" id="email" placeholder=" ">
+            <label for="email" id="auth-form-email">Your email</label>
+        </div>
+        <div class="auth-from-group2">
+            <input type="password" class="auth-form-input2" id="password1" placeholder=" ">
+            <label for="password1" id="authu-form-pasword1">Your password</label>
+        </div>
+        <div class="auth-from-group3">
+            <input type="password2" class="auth-form-input3" id="email" placeholder=" ">
+            <label for="password2" id="authu-form-pasword2">Enter again password</label>
+        </div>
+    </div>
+
+
+</body>
+<style>
+    /* .main{
+        height: 1000px;
+        display: flex;
+
+    }
+    img{
+        height: 1000px;
+        position: absolute;
+        filter: contrast(1.2);
+    }
+    h1{
+        mix-blend-mode: overlay;
+        color: #fff;
+        font-size: 800 5rem 'Montserrat';
+        margin: 25px;
+    } */
+
+.auth-form-form{
+position: relative;
+margin-top: 6rem;
+}
+.auth-form-input1{
+width: 100%;
+padding-left: 1rem;
+font-family: "Roboto", sans-serif;
+border: 1px solid #eee;
+}
+#auth-form-email{
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+}
+.auth-form-input1:focus{
+   border-color: yellow ;
+   border: 1px solid;
+}
+.auth-form-input1:not(:placeholder-shown)+#auth-form-email,
+.auth-form-input1:focus + #auth-form-email{
+    top: -1rem;
+    left: 0.5rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+
+.auth-form-input2{
+width: 100%;
+padding-left: 1rem;
+font-family: "Roboto", sans-serif;
+border: 1px solid #eee;
+margin-top: 3rem;
+}
+#authu-form-pasword1{
+    position: absolute;
+    top: 4.3rem;
+    left: 1rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+}
+.auth-form-input2:focus{
+   border-color: yellow ;
+   border: 1px solid;
+}
+
+
+.auth-form-input2:focus +#authu-form-pasword1{
+    top: 3rem;
+    left: 0.5rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+    
+</style>
+</html>

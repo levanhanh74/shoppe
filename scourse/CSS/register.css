@@ -1,0 +1,12 @@
+.containner_form{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    height: 12rem;
+    background-color: #ee6b2e;
+    line-height: 10rem;
+}
+.footer_boostraps{
+height: 100%;
+}
