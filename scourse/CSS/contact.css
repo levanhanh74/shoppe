@@ -1,0 +1,134 @@
+
+/* begin header */
+.header{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+/* the end header */
+
+/* begin map */ 
+.grids{
+    width: 1660px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 135px;
+}
+.map{
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-top: 0rem;
+    z-index: 0;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* the end map */
+.contact_getintouch{
+    display: flex;
+    margin-top: 5rem;
+    height: 60rem;
+}
+
+.contact_left{
+width: 50%;    
+padding-right: 3rem;
+}
+.contact_left .title{
+font-size: 3rem;
+font-weight: 900;
+margin-bottom: 1.5rem;
+}
+.contact_left .contents{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 3rem;
+}
+.contact_left .contact_inf{
+    font-weight: 500;
+    color: gray;
+    font-size: 1.2rem;
+}
+.title_folow {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.icons_soicials{
+    font-size: 3rem;
+}
+.icons_soicials .face{
+    color: blue;
+}
+.icons_soicials .twiz{
+    color: #8dbff4;
+}
+.icons_soicials .gogle{
+    color: orangered;
+}
+.icons_soicials .intagram{
+    color: brown;
+
+}
+.icons_soicials i {
+    border-radius: 100%;
+    transition: all 0.4 ease-in;
+
+}
+.icons_soicials i:hover{
+    box-shadow: 0.1px 20px 60px gray;
+}
+
+.getintouch_right{
+width: 50%;
+}
+.getintouch_right .title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.getintouch_right .content{
+    color: gray;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+.getintouch_right .inputs input{
+    display: block;
+    margin: 2rem 0;
+    width: 70%;
+    padding: 1rem ;
+}
+.getintouch_right textarea{
+height: 12rem;
+padding-bottom: 0rem;
+outline: none;
+display: block;
+margin-bottom: 1.5rem;
+width: 47rem;
+padding-left: 1.1rem;
+}
+.getintouch_right button{ 
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+.footer{
+    background-color: var(--primary-color);
+    height: 10rem;
+    line-height: 5.5rem;
+}
+.header-search-input-wrap,
+.header-cart{
+    z-index: 1;
+}

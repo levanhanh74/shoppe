@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đệ quy</title>
+</head>
+<body>
+    <div class="main">
+        <!-- dom co cac thanh phan input checkbox radio box selection textarea button -->
+        <!-- <label for="email"></label> -->
+        <div>
+            <button onclick="show()">hien thi</button>
+            <div><input type="text" id="text"></div>
+            <select id="name1">
+                <option value="hanh">hanh</option>
+                <option value="hanh1">hanh1</option>
+                <option value="hanh2">hanh2</option>
+                <option value="hanh3">hanh3</option>
+            </select>
+            <input type="radio" name="gender" value="nam" id="nam" class="gender"><label for="nam">nam</label>
+            <input type="radio" name="gender" value="nu" id="nu" class="gender"><label for="nu">nu</label>
+        </div>
+        <div id="result"></div>
+        <div id="resultgen"></div>
+        <div id="name"></div>
+    </div>
+</body>
+<script >
+   function show(){
+       let a = document.getElementById('text').value;
+       if(a ===''){
+        document.write('ban chua nhap ten. Vui long nhap ten vao')
+       }
+       let c = document.getElementById('name1').value
+       let b = document.querySelector('.gender:checked').value
+
+       document.getElementById('result').innerHTML = 'toi ten la ' + a
+        document.getElementById('resultgen').innerHTML = `gioi tinh ${b}`
+    document.getElementById('name').innerHTML = `your name english  ${c}`
+   }
+</script>
+</html>

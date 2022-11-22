@@ -1,12 +1,19 @@
-.containner_form{
-    display: flex;
-    align-items: center;
-}
+
 .footer{
-    height: 12rem;
-    background-color: #ee6b2e;
-    line-height: 10rem;
+    height: 180px;
+    background-color: var(--primary-color);
 }
-.footer_boostraps{
-height: 100%;
+.modal-bodys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+  
 }
+.modal-a{
+    display: block;
+    background-image: url(/scourse/img/back-ground-login.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
