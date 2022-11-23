@@ -9,10 +9,11 @@
     --header-height: 12rem;
     --header-width-search-height: calc(var(--header-height) - var(--navbar-height));
     --star-color:#ffce3e;
+    --bg-white: #ffffff5e;
 }
 *{
     box-sizing: inherit;
-
+ 
 }
 
 html{
@@ -54,6 +55,7 @@ padding-left:12px ;
 padding-right:12px ;
 width: 83.3333%;
 }
+
 
 
 
@@ -179,4 +181,44 @@ left: 0;
     text-decoration: none;
     display: block;
     padding-left: 17px;
+}
+
+
+/* pagination 'chuyen trang '  */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item{
+margin:  0 12px;
+}
+/* .pagination-item-link:hover,
+.pagination-item:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+} */
+
+.pagination-item-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #939393;
+    font-size: 2rem;
+    height: 38px;
+    min-width: 40px;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+}
+.pagination-item-icon{
+
+}
+.pagination-item-active .pagination-item-link{
+background-color: var(--primary-color);
+color: var(--white-color);
+}
+.pagination-item-active .pagination-item-link:hover{
+    background-color: #de745e;
 }

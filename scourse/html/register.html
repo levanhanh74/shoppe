@@ -11,312 +11,286 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/scourse/CSS/register.css">
     <script src="/scourse/JS/loign.js"></script>
+    <link rel="stylesheet" href="/scourse/CSS/register.css">
 </head>
 <body>
     <div class="app">
-        <header class="header">
-            <!-- class grid la cho ti le khung hinh  cua minh no ok hon khong can phai padding hay margin gi ca -->
-            <div class="grid">
-                <!-- Nav bên trái -->
-                <nav class="header-navbar">
-                    <ul class="header-navbar-list">
-                        <li class="header-navbar-item header-navbar-item-has-qr header-navbar-item-separate">Vào cửa
-                            hàng
-                            <!-- header qr code-->
-                            <div class="header-qr">
-                                <img src="/scourse/img/QR code.png" alt="" class="header-qr-img">
-                                <div class="header-qr-app">
-                                    <a href="" class="header-qr-link"> <img src="/scourse/img/Google-play.png"
-                                            alt="Google-play" class="header-qr-download_img"></a>
-                                    <a href="" class="header-qr-link"> <img src="/scourse/img/Apps-stores.png"
-                                            alt="Apps-stores" class="header-qr-download_img"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="header-navbar-item">
-                            <span class="header-navbar-title-no-pointer">Kết Nối</span>
-                            <a href="" class="header-navbar-icon-link">
-                                <i class="header-navbar-icon fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="" class="header-navbar-icon-link">
-                                <i class="header-navbar-icon fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Nav bên phải -->
-                    <ul class="header-navbar-list">
-                        <li class="header-navbar-item header-navbar-item-has-notify">
-                            <a href="" class="header-navbar-item-link ">
-                                <a href="" class="header-navbar-icon-link">
-                                    <i class="header-navbar-icon fa-solid fa-bell"></i>
-                                </a>Thông báo
-                            </a>
-                            <div class="header-notify">
-                                <header class="header-notify-header">
-                                    <h3>Thong bao moi nhat</h3>
-                                </header>
-                                <ul class="header-notify-list">
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 1.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang Mo ta
-                                                    Ohui</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 2.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang cac ban trai
-                                                    nen mu cho cac ban gai</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hangMy pham
-                                                    Ohui</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 3.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang dep khong ti
-                                                    vet</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang nen cung
-                                                    rat dep da cho cac chi em phu nu</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 4.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang hang gia dat
-                                                    chat luong cao</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac chi em
-                                                    phu nu luon tin dung</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 5.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang dung khong dep
-                                                    khong lay tien</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac ban
-                                                    nen dung thu va kiem nhiem nhe</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 6.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang cac ban can
-                                                    biet ve san pham nay</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang dung va
-                                                    hoi tai sao no chat luong the</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-notify-item header-notify-item-read">
-                                        <a href="" class="header-notify-link">
-                                            <img src="/scourse/img/my pham 7.jfif" alt="" class="header-notify-img">
-                                            <div class="header-notify-info">
-                                                <span class="header-notify-name">My pham Ohui chinh hang ban rat ban
-                                                    khoan khi dat niem tin vao de mua no</span>
-                                                <span class="header-notify-description">Mo ta Ohui chinh hang cac ban nu
-                                                    chac chan rat tin dung san pham nay cho ma xem</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <footer class="header-notify-footer">
-                                    <div class="header-notify-item-footer-btn">Xem tat ca</div>
-                                </footer>
-                            </div>
-                        </li>
-                        <li class="header-navbar-item">
-                            <a href="./contact.html" class="header-navbar-item-link "><a href="./contact.html" class="header-navbar-icon-link">
-                                   <i class="header-navbar-icon fa-solid fa-address-book"></i> Contact 
-                                </a>
-                               
-                            </a>
-                        </li>
-                        <li class="header-navbar-item header-navbar-item-bold"><a href="/index.html" class="header-navbar-item-link header-navbar-item-separate">Home page</a></li>
-                        <li class="header-navbar-item header-navbar-item-bold"><a href="#" class="header-navbar-item-link">Đăng Nhập</a></li>
-                        <li class="header-navbar-item header-navbar-user">
-                            <!-- <img src="https://scontent.fdad8-1.fna.fbcdn.net/v/t39.30808-6/309995044_636137751417886_4280318165676617827_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oLCCulSR-NIAX8SXsze&_nc_ht=scontent.fdad8-1.fna&oh=00_AfA3jYNlopvZDFNT1f1A-QLACnV2drK7yvBiZ9jZ1TRN1g&oe=637A4F92" alt="" class="header-navbar-user-img">
-                            <span class="header-navbar-user-name">Hanhcoder</span>
-
-                            <ul class="header-navbar-user-menu">
-                                <li class="header-navbar-user-item">
-                                    <a href="">My Account</a>
-                                </li>
-                                <li class="header-navbar-user-item">
-                                    <a href="">My addreess</a>
-                                </li>
-                                <li class="header-navbar-user-item">
-                                    <a href="">My buying unit </a>
-                                </li>
-                                <li class="header-navbar-user-item">
-                                    <a href="">Log out </a>
-                                </li>
-                            </ul> -->
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- begin header width search -->
-                <div class="header-width-search">
-                    <div class="header-logo">
-                        <img src="/scourse/img/logoshopee.jfif" alt="" class="header-logo-img">
-                    </div>
-                    <div class="header-search">
-                        <div class="header-search-input-wrap">
-                            <input type="text" class="header-search-input" placeholder="Enter search product" list="browsers">
-                            <!-- search history -->
-                            <div class="header-search-history">
-                                <h3 class="header-search-history-heading">History Look for product</h3>
-                                <ul class="header-search-history-list">
-                                    <li class="header-search-history-item">
-                                        <a href="">Kem duong da chong nang</a>
-                                    </li>
-                                    <li class="header-search-history-item">
-                                        <a href="">Son moi danh cho nu</a>
-                                    </li>
-                                    <li class="header-search-history-item">
-                                        <a href="">Day danh cho nam</a>
-                                    </li>
-                                </ul>
-                                <!-- <datalist class="header-search-history-list"  id="browsers">
-                                    <option class="header-search-history-item" value="Internet Explorer">
-                                    <option class="header-search-history-item" value="Firefox">
-                                    <option class="header-search-history-item" value="Google Chrome">
-                                    <option class="header-search-history-item" value="Opera">
-                                    <option class="header-search-history-item" value="Safari">
-                                  </datalist>   cai nay thi don gian hon khong can css nhieu -->
+     <!-- the begin header -->
+     <header class="header">
+        <!-- class grid la cho ti le khung hinh  cua minh no ok hon khong can phai padding hay margin gi ca -->
+        <div class="grid">
+            <!-- Nav bên trái -->
+            <nav class="header-navbar">
+                <ul class="header-navbar-list">
+                    <li class="header-navbar-item header-navbar-item-has-qr header-navbar-item-separate">Vào cửa
+                        hàng
+                        <!-- header qr code-->
+                        <div class="header-qr">
+                            <img src="/scourse/img/QR code.png" alt="" class="header-qr-img">
+                            <div class="header-qr-app">
+                                <a href="#" class="header-qr-link"><img src="/scourse/img/Google-play.png"
+                                        alt="Google-play" class="header-qr-download_img"></a>
+                                <a href="#" class="header-qr-link"><img src="/scourse/img/Apps-stores.png"
+                                        alt="Apps-stores" class="header-qr-download_img"></a>
                             </div>
                         </div>
-                        <div class="header-search-select">
-                            <span class="header-search-select-lable"> Trong shop </span>
-                            <i class="header-search-select-icon fa-solid fa-angle-down"></i>
+                    </li>
+                    <li class="header-navbar-item">
+                        <span class="header-navbar-title-no-pointer">Kết Nối</span>
+                        <a href="#" class="header-navbar-icon-link">
+                            <i class="header-navbar-icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="header-navbar-icon-link">
+                            <i class="header-navbar-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
 
-                            <ul class="header-search-option">
-                                <li class="header-search-option-item header-search-option-item-active">
-                                    <span>Trong shop</span>
-                                    <i class="fa-solid fa-check"></i>
+                <!-- Nav bên phải -->
+                <ul class="header-navbar-list">
+                    <li class="header-navbar-item header-navbar-item-has-notify">
+                        <a href="#" class="header-navbar-item-link ">
+                            <a href="#" class="header-navbar-icon-link">
+                                <i class="header-navbar-icon fa-solid fa-bell"></i>
+                            </a>Thông báo
+                        </a>
+                        <div class="header-notify">
+                            <header class="header-notify-header">
+                                <h3>Thong bao moi nhat</h3>
+                            </header>
+                            <ul class="header-notify-list">
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/toyota vios 1.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name"> Toyota Vios da gia xuong 470 trieu quy khach co nhu cau thi vao xem xe . Xin cam on</span>
+                                            <span class="header-notify-description">Car toyota chinh hang</span>
+                                        </div>
+                                    </a>
                                 </li>
-                                <li class="header-search-option-item header-search-option-item-active">
-                                    <span>Ngoai shop</span>
-                                    <i class="fa-solid fa-check"></i>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/testla 1.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name"> Testla model 3 dong 2022 da gia xuong 1.139 ty quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car Tesla chinh hang</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/testla 2.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name">Testla model s 2021 da gia xuong 3.08 ty quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car Tesla chinh hang</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/peugeuot 1.jfif" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name">Peugeoot 508 2022 da gia xuong 1.19 ty quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car Peugeot chinh hang</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/kia 1.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name">Kia Stringer 2022 da gia xuong 875 trieu quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car Kia Stringer chinh hang</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/honda city 1.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name">Honda city 2022 da gia xuong 529 trieu quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car honda city 2022 chinh hang</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header-notify-item header-notify-item-read">
+                                    <a href="#" class="header-notify-link">
+                                        <img src="/scourse/img/land rover 1.jpg" alt="" class="header-notify-img">
+                                        <div class="header-notify-info">
+                                            <span class="header-notify-name">Land rover Discovery Sport 2022 da gia xuong 2.599 ty quy khach co nhu cau thi vao xem . Xin cam on</span>
+                                            <span class="header-notify-description">Car Land rover discovery 2022 chinh hang</span>
+                                        </div>
+                                    </a>
                                 </li>
                             </ul>
-
+                            <footer class="header-notify-footer">
+                                <div class="header-notify-item-footer-btn">Xem tat ca</div>
+                            </footer>
                         </div>
-                        <button class="header-search-btn">
-                            <i class="header-search-btn-icon fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </div>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="/scourse/html/contact.html" class="header-navbar-item-link ">
+                            <!-- <a href="/scourse/html/contact.html" class="header-navbar-icon-link">
+                            <i class="fa-solid fa-address-book"></i> -->
+                         Contact   </a>
+                            
+                        </a>
+                    </li>
+                    <li class="header-navbar-item header-navbar-item-bold"><a href="/scourse/html/register.html" class="header-navbar-item-link header-navbar-item-separate">Đăng kí</a></li>
+                    <li class="header-navbar-item header-navbar-item-bold"><a href="/scourse/html/register.html" class="header-navbar-item-link">Đăng Nhập</a></li>
+                    <li class="header-navbar-item header-navbar-user">
+                        <!-- <img src="https://scontent.fdad8-1.fna.fbcdn.net/v/t39.30808-6/309995044_636137751417886_4280318165676617827_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oLCCulSR-NIAX8SXsze&_nc_ht=scontent.fdad8-1.fna&oh=00_AfA3jYNlopvZDFNT1f1A-QLACnV2drK7yvBiZ9jZ1TRN1g&oe=637A4F92" alt="" class="header-navbar-user-img">
+                        <span class="header-navbar-user-name">Hanhcoder</span>
 
-                    <!-- begin cart layout -->
-                    <div class="header-cart">
-                      <div class="header-cart-wrap header-cart-wrap-rigister">
-                        <i class="header-cart-icon fa-solid fa-cart-shopping"></i>
-                        <!-- No cart:  header-cart-list-no-cart  header-cart-no-cart-->
-                        <span class="header-cart-notice">3</span>
-                        <div class="header-cart-list ">
-                            <img src="/scourse/img/no-cart.png" alt="" class="header-cart-no-cart-img">
-                            <span class="header-cart-list-no-cart-msg">
-                                Cart haven't product yet
-                            </span>
-                            <h4 class="header-cart-heading">Product was add</h4>
-                            <ul class="header-cart-list-item">
-                                <!-- cart item  -->
-                                <li class="header-cart-item">
-                                    <img src="/scourse/img/my pham 1.jfif" alt="" class="header-cart-img">
-                                    <div class="header-cart-item-ifo">
-                                        <div class="header-cart-item-head">
-                                            <h5 class="header-cart-item-name">San phẩm kem danh cho nu</h5>
-                                            <div class="head-cart-item-price-wrap">
-                                                <span class="header-cart-item-price">20.000VND</span>
-                                                <span class="header-cart-item-multify">x</span>
-                                                <span class="header-cart-item-qnt">1</span>
-                                            </div>
-                                        </div>
-                                        <div class="header-cart-item-body">
-                                            <span class="header-cart-item-description">Product for woman</span>
-                                            <span class="header-cart-item-remove">Delete</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="header-cart-item">
-                                    <img src="/scourse/img/my pham 2.jfif" alt="" class="header-cart-img">
-                                    <div class="header-cart-item-ifo">
-                                        <div class="header-cart-item-head">
-                                            <h5 class="header-cart-item-name">San phẩm son moi</h5>
-                                            <div class="head-cart-item-price-wrap">
-                                                <span class="header-cart-item-price">40.000VND</span>
-                                                <span class="header-cart-item-multify">x</span>
-                                                <span class="header-cart-item-qnt">2</span>
-                                            </div>
-                                        </div>
-                                        <div class="header-cart-item-body">
-                                            <span class="header-cart-item-description">Product for woman</span>
-                                            <span class="header-cart-item-remove">Delete</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="header-cart-item">
-                                    <img src="/scourse/img/my pham 3.jfif" alt="" class="header-cart-img">
-                                    <div class="header-cart-item-ifo">
-                                        <div class="header-cart-item-head">
-                                            <h5 class="header-cart-item-name">San phẩm kem chong nang nu</h5>
-                                            <div class="head-cart-item-price-wrap">
-                                                <span class="header-cart-item-price">25.000VND</span>
-                                                <span class="header-cart-item-multify">x</span>
-                                                <span class="header-cart-item-qnt">1</span>
-                                            </div>
-                                        </div>
-                                        <div class="header-cart-item-body">
-                                            <span class="header-cart-item-description">Product for woman</span>
-                                            <span class="header-cart-item-remove">Delete</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="header-cart-item">
-                                    <img src="/scourse/img/my pham 4.jfif" alt="" class="header-cart-img">
-                                    <div class="header-cart-item-ifo">
-                                        <div class="header-cart-item-head">
-                                            <h5 class="header-cart-item-name">San phẩm danh mi mat</h5>
-                                            <div class="head-cart-item-price-wrap">
-                                                <span class="header-cart-item-price">10.000VND</span>
-                                                <span class="header-cart-item-multify">x</span>
-                                                <span class="header-cart-item-qnt">1</span>
-                                            </div>
-                                        </div>
-                                        <div class="header-cart-item-body">
-                                            <span class="header-cart-item-description">Product for woman</span>
-                                            <span class="header-cart-item-remove">Delete</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <a href="#" class="header-cart-view-cart btn btn-primary">Look cart</a>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
+                        <ul class="header-navbar-user-menu">
+                            <li class="header-navbar-user-item">
+                                <a href="#">My Account</a>
+                            </li>
+                            <li class="header-navbar-user-item">
+                                <a href="#">My addreess</a>
+                            </li>
+                            <li class="header-navbar-user-item">
+                                <a href="#">My buying unit </a>
+                            </li>
+                            <li class="header-navbar-user-item">
+                                <a href="#">Log out </a>
+                            </li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- begin header width search -->
+            <div class="header-width-search">
+                <div class="header-logo">
+                    <img src="/scourse/img/logo car.png" alt="" class="header-logo-img">
                 </div>
-                <!-- the end header width search  -->
-            </div>
+                <div class="header-search">
+                    <div class="header-search-input-wrap">
+                        <input type="text" class="header-search-input" placeholder="Enter search product" list="browsers">
+                        <!-- search history -->
+                        <div class="header-search-history">
+                            <h3 class="header-search-history-heading">History Look for product</h3>
+                            <ul class="header-search-history-list">
+                                <li class="header-search-history-item">
+                                    <a href="#">Messcedes AMG A35</a>
+                                </li>
+                                <li class="header-search-history-item">
+                                    <a href="#">Kia Stringer 2022</a>
+                                </li>
+                                <li class="header-search-history-item">
+                                    <a href="#">Lexus LX 570 2022</a>
+                                </li>
+                            </ul>
+                            <!-- <datalist class="header-search-history-list"  id="browsers">
+                                <option class="header-search-history-item" value="Internet Explorer">
+                                <option class="header-search-history-item" value="Firefox">
+                                <option class="header-search-history-item" value="Google Chrome">
+                                <option class="header-search-history-item" value="Opera">
+                                <option class="header-search-history-item" value="Safari">
+                              </datalist>   cai nay thi don gian hon khong can css nhieu -->
+                        </div>
+                    </div>
+                    <div class="header-search-select">
+                        <span class="header-search-select-lable"> Trong shop </span>
+                        <i class="header-search-select-icon fa-solid fa-angle-down"></i>
 
-        </header>
-        <!-- the header -->
+                        <ul class="header-search-option">
+                            <li class="header-search-option-item header-search-option-item-active">
+                                <span>Trong shop</span>
+                                <i class="fa-solid fa-check"></i>
+                            </li>
+                            <li class="header-search-option-item header-search-option-item-active">
+                                <span>Ngoai shop</span>
+                                <i class="fa-solid fa-check"></i>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <button class="header-search-btn">
+                        <i class="header-search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <!-- begin cart layout -->
+                <div class="header-cart">
+                  <div class="header-cart-wrap">
+                    <i class="header-cart-icon fa-solid fa-cart-shopping"></i>
+                    <!-- No cart:  header-cart-list-no-cart  header-cart-no-cart-->
+                    <span class="header-cart-notice">11</span>
+                    <div class="header-cart-list ">
+                        <img src="/scourse/img/no-cart.png" alt="" class="header-cart-no-cart-img">
+                        <span class="header-cart-list-no-cart-msg">
+                            Cart haven't product yet
+                        </span>
+                        <h4 class="header-cart-heading">Product was add</h4>
+                        <ul class="header-cart-list-item">
+                            <!-- cart item  -->
+                            <li class="header-cart-item">
+                                <img src="/scourse/img/testla 1.jpg" alt="" class="header-cart-img">
+                                <div class="header-cart-item-ifo">
+                                    <div class="header-cart-item-head">
+                                        <h5 class="header-cart-item-name"> Mẫu Xe Tesla Model 3  2022 mới nhất tại Việt Nam để biết tổng giá cập bến cụ thể, vui lòng tham khảo chương trình khuyến mãi của Tesla Model 3.</h5>
+                                        <div class="head-cart-item-price-wrap">
+                                            <span class="header-cart-item-price">1.139 ty</span>
+                                            <span class="header-cart-item-multify">x</span>
+                                            <span class="header-cart-item-qnt">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="header-cart-item-body">
+                                        <span class="header-cart-item-description">Product for rich</span>
+                                        <span class="header-cart-item-remove">Delete</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-cart-item">
+                                <img src="/scourse/img/testla 2.jpg" alt="" class="header-cart-img">
+                                <div class="header-cart-item-ifo">
+                                    <div class="header-cart-item-head">
+                                        <h5 class="header-cart-item-name">Mẫu Xe Tesla Model S 2021 là dòng xe điện có thiết kế đơn giản nhưng vô cùng đẹp mắt và hài hòa. Bên cạnh đó, dòng xe này còn có mức tiêu hao nhiên liệu khá ít, đảm bảo cho người dùng có được cảm giác lái linh hoạt và êm ái nhất.</h5>
+                                        <div class="head-cart-item-price-wrap">
+                                            <span class="header-cart-item-price">3.08 ty</span>
+                                            <span class="header-cart-item-multify">x</span>
+                                            <span class="header-cart-item-qnt">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="header-cart-item-body">
+                                        <span class="header-cart-item-description">Product for rich</span>
+                                        <span class="header-cart-item-remove">Delete</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-cart-item">
+                                <img src="/scourse/img/land rover 1.jpg" alt="" class="header-cart-img">
+                                <div class="header-cart-item-ifo">
+                                    <div class="header-cart-item-head">
+                                        <h5 class="header-cart-item-name">Land Rover Discovery Sport 2022 mới tại Malaysia là 10,23 lít trên 100 km và nhà sản xuất công bố mức tiêu thụ nhiên liệu của Land Rover Discovery Sport 2021 2.0L I4 Turbocharged HSE là 10,23 lít trên 100 km, nhà sản xuất công bố mức tiêu thụ nhiên liệu của năm 2021 Land Rover Discovery Sport 2.0L I4 Turbocharged HSE Luxury là 10,23 lít/100 km và nhà sản xuất công bố mức tiêu thụ nhiên liệu của Land Rover Discovery Sport 2021 2.0L I4 Turbocharged SE là 10,23 lít/100 km.</h5>
+                                        <div class="head-cart-item-price-wrap">
+                                            <span class="header-cart-item-price">2.599 ty</span>
+                                            <span class="header-cart-item-multify">x</span>
+                                            <span class="header-cart-item-qnt">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="header-cart-item-body">
+                                        <span class="header-cart-item-description">Product for rich</span>
+                                        <span class="header-cart-item-remove">Delete</span>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <a href="#" class="header-cart-view-cart btn btn-primary">Look cart</a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- the end header width search  -->
+        </div>
+
+    </header>
+
+        <!-- the end header -->
 
         
        <div class="container-css">
@@ -373,9 +347,74 @@
        </div>
         <!-- the end containner -->
 
+        <!-- the begin footer -->
         <footer class="footer">
-           
+            <div class="grid">
+                <div class="grid_row">
+                    <div class="grid-column-2-4">
+                        <h3 class="footer-headding">Cham soc khach hang</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="footer-list-item-link">Trung tam tro giup</a>
+                                <a href="#" class="footer-list-item-link">Shoppe Hanhcoder74</a>
+                                <a href="#" class="footer-list-item-link">Huong dan mua cac thiet bi khi code o hanhcoder74</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid-column-2-4">
+                        <h3 class="footer-headding">Gioi thieu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="footer-list-item-link">Gioi thieu dieu khoan</a>
+                                <a href="#" class="footer-list-item-link">Tuyen dung</a>
+                                <a href="#" class="footer-list-item-link">Dieu khoan khi dang ki mua hang</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid-column-2-4">
+                        <h3 class="footer-headding">Danh muc</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="footer-list-item-link">Xe cao cap 1</a>
+                                <a href="#" class="footer-list-item-link">Xe cao cap 2</a>
+                                <a href="#" class="footer-list-item-link">Xe pho thong</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid-column-2-4">
+                        <h3 class="footer-headding">Theo doi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#" class="footer-list-item-link"><i class="footer-list-item-icon fa-brands fa-facebook"></i>Facebook</a>
+                                <a href="#" class="footer-list-item-link"><i class="footer-list-item-icon fa-brands fa-instagram"></i>Imstagram</a>
+                                <a href="#" class="footer-list-item-link"><i class="footer-list-item-icon fa-brands fa-linkedin"></i>Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid-column-2-4">
+                        <h3 class="footer-headding">Vao cua hang trong ung dung</h3>
+                        <div class="footer-download">
+                            <img src="/scourse/img/QR code.png" alt="" class="footer-download-img">
+                            <div class="footer-download-apps">
+                                <a class="footer-download-app-link" href="#">
+                                    <img src="/scourse/img/Google-play.png" alt="" class="footer-download-apps-chplay">
+                                </a>
+                                <a class="footer-download-app-link" href="#">
+                                    <img src="/scourse/img/Apps-stores.png" alt="" class="footer-download-apps-store">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-row grid-row-css ">
+                <div class="footer-row">
+                    <p class="footer-text">© 2022 - Bản quyền thuộc về Công ty TNHH Hanhcoder74</p>
+                </div>
+            </div>
         </footer>
+
+        <!-- the end footer -->
 
 </body>
 </html>

@@ -1,13 +1,8 @@
-
-.footer{
-    height: 180px;
-    background-color: var(--primary-color);
-}
 .modal-bodys{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 720px;
+
   
 }
 .modal-a{
