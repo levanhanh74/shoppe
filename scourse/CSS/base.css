@@ -23,11 +23,20 @@ html{
     font-family: 'Roboto', sans-serif; 
     box-sizing: border-box;
 }
+
+.header{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
 /* reponsive */
 .grid{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 .grid_ful-width{
