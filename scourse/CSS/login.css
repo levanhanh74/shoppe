@@ -1,0 +1,146 @@
+.auth-form-input0-s{
+    width: 100%;
+    height: 4rem;
+    padding-left: 1rem;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 1.5rem;
+    line-height: auto;
+    margin-top: 1.9rem;
+}
+#auth-form-username-s-s{
+    position: absolute;
+    top: 3.1rem;
+    left: 2rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+    font-size: 1.6rem;
+}
+.auth-form-input0-s:focus{
+    color: #f53e2d ;
+   border: 3px solid;
+}
+.auth-form-input0-s:not(:placeholder-shown)+#auth-form-username-s-s,
+.auth-form-input0-s:focus + #auth-form-username-s-s{
+    top: 0.75rem;
+    left: 1rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+.auth-form-input0-s:not(:placeholder-shown){
+    color: #4a43cd;
+}
+
+
+.auth-form-input1-s{
+width: 100%;
+height: 4rem;
+border: 1px solid #eee;
+padding-left: 1rem;
+font-family: "Roboto", sans-serif;
+outline: none;
+font-size: 1.5rem;
+line-height: auto;
+margin-top: 2.4rem;
+}
+#auth-form-email-s{
+    position: absolute;
+    top: 8.8rem;
+    left: 2rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+    font-size: 1.6rem;
+}
+.auth-form-input1-s:focus{
+    color: #f53e2d ;
+   border: 3px solid;
+}
+.auth-form-input1-s:not(:placeholder-shown)+#auth-form-email-s,
+.auth-form-input1-s:focus + #auth-form-email-s{
+    top: 6.8rem;
+    left: 1rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+.auth-form-input1-s:not(:placeholder-shown){
+    color: #4a43cd;
+}
+
+.auth-form-input2-s{
+width: 100%;
+height: 4rem;
+padding-left: 1rem;
+font-family: "Roboto", sans-serif;
+border: 1px solid #eee;
+outline: none;
+font-size: 1.5rem;
+line-height: auto;
+margin-top: 2.4rem;
+}
+#authu-form-pasword1-s-s{
+    position: absolute;
+    top: 9.5rem;
+    left: 2rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+    font-size: 1.6rem;
+}
+.auth-form-input2-s:focus{
+    color: #f53e2d ;
+    border: 3px solid;
+}
+.auth-form-input2-s:not(:placeholder-shown)+#authu-form-pasword1-s-s,
+.auth-form-input2-s:focus + #authu-form-pasword1-s-s{
+    top: 7rem;
+    left: 1rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+    color: #f53e2d;
+}
+.auth-form-input2-s:not(:placeholder-shown){
+    color: #f53e2d;
+}
+
+.auth-form-input3-s{
+width: 100%;
+height: 4rem;
+padding-left: 1rem;
+border: 1px solid #eee;
+font-family: "Roboto", sans-serif;
+outline: none;
+font-size: 1.5rem;
+line-height: auto;
+margin-top: 2.4rem;
+}
+#authu-form-pasword2-s{
+    position: absolute;
+    top: 21.7rem;
+    left: 2rem;
+    user-select: none;
+    color: rgb(238, 180, 180);
+    pointer-events: none;
+    font-size: 1.6rem;
+}
+.auth-form-input3-s:focus{
+    color: #f53e2d ;
+   border: 3px solid;
+}
+.auth-form-input3-s:not(:placeholder-shown)+#authu-form-pasword2-s,
+.auth-form-input3-s:focus + #authu-form-pasword2-s{
+    top: 19.3rem;
+    left: 1rem;
+    background-color: #FFF;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+.auth-form-input3-s:not(:placeholder-shown){
+    color: #f53e2d;
+}
+/* the end auth-form-form input */

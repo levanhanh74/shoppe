@@ -1,0 +1,14 @@
+{
+    "workbench.view.alwaysShowHeaderActions": false,
+    "breadcrumbs.showEvents": true,
+    "workbench.editor.autoLockGroups": {
+        "vscode.markdown.preview.editor": true
+    },
+    "workbench.settings.openDefaultKeybindings": false,
+    "zenMode.fullScreen": false,
+    "powermode.presets": "fireworks",
+    "powermode.enabled": true,
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.counterSize": 5,
+    "powermode.combo.location": "statusbar"
+}

@@ -1,0 +1,137 @@
+.grid-cloum-css-border-in{
+    padding: 3rem 2.5rem 2rem;
+}
+.grid-column-2-order-title{
+    font-size: 2.5rem;
+}
+.grid-column-2-order-description{
+    font-size: 1.8rem;
+    color: #a79696;
+}
+.information-fullname{
+    display: flex;
+    flex: 1;
+}
+.information-fullname{
+    display: flex;
+    justify-content: space-between;
+}
+.information-firtName,
+.information-lastName
+{
+    width: 100%;
+    flex: 1;
+}
+#first,
+#lastName{
+    margin-top: 1rem;
+    padding: 1rem 2rem 1rem 0.2rem;
+}
+
+.information-address{
+    margin-top: 2rem;
+}
+.information_country{
+    display: block;
+}
+.country,
+.input-address,
+.phone,
+.email-address,
+.province,
+.address-town,
+.address-post
+{
+    display: block;
+}
+#country{
+    display: block;
+    flex: 1;
+    width: 50%;
+    margin-top: 1rem;
+    padding: 0.4rem 0;
+}
+.information-inputd-address{
+    margin-top: 2rem;
+}
+#province,
+#phone,
+#email-address,
+#address-town,
+#address-post,
+#input-address{
+    width: 80%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+
+.information-town-city,
+.information-province,
+.information-phone,
+.information-email-address,
+.information-postcode{
+    margin-top: 2rem;
+}
+.grid-column-2-check-question{
+    margin-top: 3rem;
+}
+
+.grid-column-2-check-1{
+    padding: 0.5rem 0;
+}
+
+.condition,
+.create,
+.TERMS{
+    margin-right: 1rem;
+}
+
+
+.table-total{
+    list-style: none;
+    width: 100%;
+}
+.table-col1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    color: rgb(228, 95, 38);
+    font-size: 2rem;
+}
+.information-pay-way{
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+.pay-way-1{
+    padding: 1rem 0;
+}
+.pay-way-1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.information-product{
+    margin-top: 2rem;
+}
+.information-product > p {
+    padding: 0 9rem;
+    line-height: 2.8rem;
+    color: #a79696;
+    text-align: justify;
+}
+.order-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    background-color: #d35122;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:  #d35122;
+}

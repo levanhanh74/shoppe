@@ -36,7 +36,6 @@ html{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 .grid_ful-width{
@@ -48,11 +47,23 @@ html{
     margin-left: -5px;
     margin-right: -5px;
 }
+
+.grid-grow-css{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
 /* test */
 .grid-column-2{
 padding-left:5px ;
 padding-right:5px ;
 width: 16.667%;
+}
+.grid-column-2-oderbuy{
+    padding-left:5px ;
+    padding-right:5px ;  
+    width: 49.5%;
+    border: 1px #939393 solid;
 }
 .grid-column-2-4{
 padding-left:5px ;
@@ -64,9 +75,26 @@ padding-left:12px ;
 padding-right:12px ;
 width: 83.3333%;
 }
+.containner_orderBuy{
+    padding-top: 131px;
+}
 
-
-
+.orderbuy_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top:5rem ;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: #ee4d2d;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-column-2-vh{
+    padding-left:5px ;
+    padding-right:5px ;
+    width: 50%;
+}
 
 
 

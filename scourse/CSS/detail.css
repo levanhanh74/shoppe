@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+html{
+    font-size: 62.5%;
+    background-image: linear-gradient(#2382,#4902,#7829);
+}
+
+.containner-css{
+    border: 1px solid rgb(208, 56, 56);
+    margin: 10rem 0;
+}
+.containner{
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    margin-top: 10rem;
+}
+.main-heading{
+display: flex;
+margin-top: 5rem ;
+}
+.back{
+    text-decoration: none;
+    font-size: 5rem ;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+}
+.containner-headding{
+font-size: 5rem ;
+font-weight: 600;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 70%;
+text-align: center;
+color: rgb(57, 129, 192);
+}
+.containner-product{
+    width: 600px;
+    max-width: 100%;
+    height: 55rem;
+
+}
+.product-item-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    align-items: flex-end;
+}
+
+
+.containner-product-item{
+    margin-left: 2rem;
+}
+.containner-product-item-tittle{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.containner-product-item-active{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.containner-product-item-start{
+color: #eec2c2;
+margin-right: 2rem;
+}
+.home-product-item-star-gold{
+    color: #dcdc12;
+}
+.item-review-text{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+.containner-product-price{
+    display: flex;
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+
+}
+.containner-product-price-current{
+    margin-left: 3rem;
+}
+.containner-product-detail-procduct{
+    margin-top: 1.2rem;
+    text-align: justify;
+    padding-right: 3rem;
+    line-height: 2.6rem;
+}
+.containner-product-detail-procduct-text{
+    font-family: 'Inter', sans-serif;
+}
+.containner-product-size-color{
+display: flex;
+margin-top: 3rem
+}
+.containner-product-size{
+    margin-right: 4rem;
+    font-size: 1.9rem;
+}
+#size,
+#color{
+    height: 3rem;
+    width: 15rem;
+}
+.containner-product-color{
+    font-size: 1.9rem;
+}
+.containner-product-quantity{
+    margin-top: 2rem;
+}
+.containner-product-quantity span{
+    font-size: 1.9rem;
+}
+.containner-product-quantity input{
+    height: 3rem;
+    width: 8rem;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3rem 2rem 0;
+}
+.btn-product{
+    padding: 1.6rem 5rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #dcdc12;
+    color: white;
+    margin-top: 3rem;
+    transition: 0.4s linear;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.btn-product:hover{
+    background-color: #d36060;
+}

@@ -26,6 +26,7 @@ width: 100%;
 .contact_getintouch{
     display: flex;
     margin-top: 5rem;
+    margin-bottom: 5rem
 }
 
 .contact_left{
@@ -113,5 +114,5 @@ padding-left: 1.1rem;
     border-radius: 2px;
     border: none;
 }
-.getintouch_right button:
+/* .getintouch_right button: */
 /* the begin contact us and get in touch */
